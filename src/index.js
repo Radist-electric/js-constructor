@@ -4,6 +4,10 @@ import {Sidebar} from './classes/sidebar'
 import './styles/main.css'
 
 const site = new Site('#site')
-const sidebar = new Sidebar('#panel')
+const updateCallback = newBlock => {
+  model.push(newBlock)
+  site.render(model)
+}
+new Sidebar('#panel', updateCallback)
 
 site.render(model)
