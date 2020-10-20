@@ -2,7 +2,7 @@ import image from './assets/image.png'
 import { TextBlock, TitleBlock, ColumnsBlock, ImageBlock } from './classes/blocks'
 
 const text = `
-Крутые видео и уроки по JavaScript тут: <a href="https://www.youtube.com/c/VladilenMinin/about">Владилен Минин</a>. Тут вы найдете большое количество уроков, посвященных веб-разработке на языке javascript и на технологиях, таких как: VueJS, ReactJS, Angular, NodeJS
+Качественные видео по JavaScript тут: <a href="https://www.youtube.com/c/VladilenMinin/about">Владилен Минин</a>. Тут вы найдете большое количество уроков, посвященных веб-разработке на языке JavaScript и на технологиях, таких как: VueJS, ReactJS, Angular, NodeJS. 
 `
 export const model = [
   new TitleBlock('Конструктор сайтов на чистом JavaScript', {
@@ -42,7 +42,7 @@ export const model = [
     },
     imageStyles: {
       height: 'auto',
-      width: '500px'
+      width: '600px'
     },
     alt: 'Это изображение Promotion'
   })
